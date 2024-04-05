@@ -82,7 +82,6 @@ while True:
 	pygame.draw.ellipse(screen, ball_color, ball)
 	screen.blit(score_text, (screen_width/2 - score_text.get_rect().width/2, 40))
 	
-
 	paddle.x += paddle_x_speed
 
 	ball.x += ball_x_speed
